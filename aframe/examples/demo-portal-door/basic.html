@@ -7,10 +7,14 @@
 <script src='src/aframe-portal-door.js'></script>
 <script src='src/threex-portal-door.js'></script>
 
+<!-- https://github.com/protyze/aframe-always-fullscreen-component -->
+<script src="https://rawgit.com/bestiejs/platform.js/master/platform.js"></script>
+<script src="https://rawgit.com/protyze/aframe-always-fullscreen-component/master/dist/aframe-always-fullscreen-component.min.js"></script>
+
 <!-- start the body of your page -->
 <body style='margin : 0px; overflow: hidden;'>
 	<!-- Define your 3d scene and enabled ar.js -->
-	<a-scene embedded arjs='trackingMethod: best; debugUIEnabled: false'>
+	<a-scene embedded always-fullscreen arjs='trackingMethod: best; debugUIEnabled: false'>
 
 		<!-- Create a anchor to attach your augmented reality -->
 		<a-anchor hit-testing-enabled='true'>
