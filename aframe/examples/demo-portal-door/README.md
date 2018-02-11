@@ -15,3 +15,6 @@
 - DONE a actual entity
 - DONE support movie url too
 - DONE do that in a THREEx - add it to webar-playground
+
+# Running
+python -m SimpleHTTPServer
